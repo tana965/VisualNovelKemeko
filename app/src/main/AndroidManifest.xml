@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VisualNovel"
+        tools:targetApi="31">
+        <activity
+            android:name=".KemekoHome"
+            android:exported="false" />
+        <activity
+            android:name=".Friend"
+            android:exported="false" />
+        <activity
+            android:name=".BridgeHomeEnd"
+            android:exported="false" />
+        <activity
+            android:name=".Domino"
+            android:exported="false" />
+        <activity
+            android:name=".TableRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Vai"
+            android:exported="false" />
+        <activity
+            android:name=".BridgeHome"
+            android:exported="false" />
+        <activity
+            android:name=".HomeNextDoor"
+            android:exported="false" />
+        <activity
+            android:name=".ResumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarmL2"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarmL"
+            android:exported="false" />
+        <activity
+            android:name=".HomeWay"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarmPNext2"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarmPNext"
+            android:exported="false" />
+        <activity
+            android:name=".BallRun"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarmP"
+            android:exported="false" />
+        <activity
+            android:name=".BridgeYarm2"
+            android:exported="false" />
+        <activity
+            android:name=".SceneYarm1"
+            android:exported="false" />
+        <activity
+            android:name=".Glava"
+            android:exported="false" />
+        <activity
+            android:name=".AboutProject"
+            android:exported="false" />
+        <activity
+            android:name=".Bridge3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bridge2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene21"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bridge"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.VisualNovel.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
